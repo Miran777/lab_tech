@@ -1,0 +1,12 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "Лабаротория системных технологий",
+  "main": "script.js",
+  "scripts": {
+    "test": "node test.js",
+    "demo": "node -e \"require('./test.js').demonstrate()\"",
+    "quick": "node -e \"require('./test.js').quickTest()\""
+  },
+  "author": "Miran"
+}
